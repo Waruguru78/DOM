@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz</h1>
+        <div class="question-container">
+            <div class="question">
+                <p>1. What is the capital of France?</p>
+                <label><input type="radio" name="q1" value="Berlin"> Berlin</label>
+                <label><input type="radio" name="q1" value="Madrid"> Madrid</label>
+                <label><input type="radio" name="q1" value="Paris"> Paris</label>
+            </div>
+            <div class="question">
+                <p>2. Which planet is known as the Red Planet?</p>
+                <label><input type="radio" name="q2" value="Earth"> Earth</label>
+                <label><input type="radio" name="q2" value="Mars"> Mars</label>
+                <label><input type="radio" name="q2" value="Jupiter"> Jupiter</label>
+            </div>
+            <div class="question">
+                <p>3. Who wrote 'To Kill a Mockingbird'?</p>
+                <label><input type="radio" name="q3" value="Harper Lee"> Harper Lee</label>
+                <label><input type="radio" name="q3" value="Mark Twain"> Mark Twain</label>
+                <label><input type="radio" name="q3" value="Ernest Hemingway"> Ernest Hemingway</label>
+            </div>
+        </div>
+        <button onclick="calculateScore()">Submit</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
